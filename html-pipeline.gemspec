@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["gjtorikian@gmail.com"]
   gem.description   = "HTML processing filters and utilities"
   gem.summary       = "Helpers for processing content through a chain of filters"
-  gem.homepage      = "https://github.com/gjtorikian/html-pipeline"
+  gem.homepage      = "https://github.com/climatebrad/html-pipeline"
 
   gem.files         = %x(git ls-files -z).split("\x0").reject { |f| f =~ %r{^(test|gemfiles|script)/} }
   gem.require_paths = ["lib"]
